@@ -1,5 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+// import { JSXDemo } from "./latihan/jsx";
+// import {Component} from "./latihan/component";
+// import {PropsAndState} from "./latihan/propsAndState";
+// import {ReactLifeCycle} from "./latihan/reactLifeCycle";
+// import {StateHook} from "./latihan/stateHook";
+// import {ReactHook} from './latihan/reactHook';
+import {Axios} from './latihan/axios';
+// import {Redux} from "./redux/redux";
 
 function App() {
   return (
@@ -17,6 +25,25 @@ function App() {
         >
           Learn React
         </a>
+
+        {/* ----------latihan 1---------- */}
+        {/* <JSXDemo /> */}
+        {/* <Component/> */}
+        {/* <PropsAndState/> */}
+        {/* <ReactLifeCycle/> */}
+        {/* <ReactLifeCycle  newName = "Derived State"/> */}
+        {/* <ReactLifeCycle  favcol="yellow"/> */}
+
+
+        {/*----------latihan 2---------- */}
+        {/* <StateHook/> */}
+        {/* <ReactHook /> */}
+         <Axios /> 
+
+
+        {/*----------latihan 3---------- */}
+        {/* <Redux /> */}
+
       </header>
     </div>
   );
